@@ -1,0 +1,18 @@
+package sec01.exam22.wrapper;
+
+public class AutoBoxingUnBoxingExample {
+
+	public static void main(String[] args) {
+		Integer obj =100;
+		System.out.println("value: "+obj.intValue());
+		
+		//¾ð¹Ú½Ì
+		int value = obj;
+		System.out.println("value: " +value);
+		
+		int result =obj + 100;
+		System.out.println("result: "+result);
+		
+	}
+
+}

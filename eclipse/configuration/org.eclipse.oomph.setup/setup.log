@@ -1,0 +1,54 @@
+[2022-11-21 09:06:18] Executing bootstrap tasks
+[2022-11-21 09:06:18] OpenJDK Runtime Environment 15.0.2+7-27
+[2022-11-21 09:06:18] Product org.eclipse.products.epp.package.java.2021-03
+[2022-11-21 09:06:18] Bundle org.eclipse.oomph.setup 1.19.0.v20210223-0655, build=5032, branch=de1d74a6bf3addd102f8a873eabac293fbeaa3ad
+[2022-11-21 09:06:18] Bundle org.eclipse.oomph.setup.core 1.19.0.v20210221-1019, build=5032, branch=de1d74a6bf3addd102f8a873eabac293fbeaa3ad
+[2022-11-21 09:06:18] Bundle org.eclipse.oomph.setup.p2 1.16.0.v20200814-1205, build=5032, branch=de1d74a6bf3addd102f8a873eabac293fbeaa3ad
+[2022-11-21 09:06:18] Performing P2 Director (Eclipse IDE for Java Developers (2021-03))
+[2022-11-21 09:06:18] Offline = false
+[2022-11-21 09:06:18] Mirrors = true
+[2022-11-21 09:06:18] Resolving 17 requirements from 3 repositoriesto C:\kimminseon\eclipse
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.19.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.19.0,5.0.0)
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.19.0,5.0.0)
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-11-21 09:06:18] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-11-21 09:06:18] Repository https://download.eclipse.org/technology/epp/packages/2021-03/202103121200
+[2022-11-21 09:06:18] Repository https://download.eclipse.org/releases/2021-03/202103171000
+[2022-11-21 09:06:18] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2022-11-21 09:06:28] Calculating requirements and dependencies.
+[2022-11-21 09:06:28] Computing prerequisite plan
+[2022-11-21 09:06:30] Fetching artifacts.xml.xz from https://download.eclipse.org/releases/2021-03/202103171000/ (699.27kB)
+[2022-11-21 09:06:31] Fetching artifacts.xml.xz from https://download.eclipse.org/releases/2021-03/202103171000/
+[2022-11-21 09:06:35] Fetching artifacts.jar from https://download.eclipse.org/technology/epp/packages/2021-03/202103121200/ (2.49kB)
+[2022-11-21 09:06:38] Fetching compositeArtifacts.jar from http://download.eclipse.org/oomph/updates/milestone/latest/ (444B)
+[2022-11-21 09:06:41] Fetching artifacts.xml.xz from http://download.eclipse.org/oomph/drops/milestone/S20221116-103457-1.27.0-M3/ (25.96kB)
+[2022-11-21 09:06:41] Collecting 5 artifacts from http://download.eclipse.org/oomph/updates/milestone/latest
+[2022-11-21 09:06:43] Downloading org.eclipse.nebula.widgets.tablecombo
+[2022-11-21 09:06:43] Downloading org.apache.commons.codec
+[2022-11-21 09:06:43] Downloading bcpg
+[2022-11-21 09:06:43] Downloading bcprov
+[2022-11-21 09:06:43] Downloading org.apache.commons.logging
+[2022-11-21 09:06:45] Fetching bcprov_1.72.0.jar from http://download.eclipse.org/oomph/drops/milestone/S20221116-103457-1.27.0-M3/plugins/ (10.75MB)
+[2022-11-21 09:06:45] Fetching org.apache.commons.codec_1.14.0.v20200818-1422.jar from http://download.eclipse.org/oomph/drops/milestone/S20221116-103457-1.27.0-M3/plugins/ (367.61kB)
+[2022-11-21 09:06:45] Fetching bcpg_1.72.0.jar from http://download.eclipse.org/oomph/drops/milestone/S20221116-103457-1.27.0-M3/plugins/ (393.64kB)
+[2022-11-21 09:06:45] Fetching org.eclipse.nebula.widgets.tablecombo_1.2.0.202208171909.jar from http://download.eclipse.org/oomph/drops/milestone/S20221116-103457-1.27.0-M3/plugins/ (41.93kB)
+[2022-11-21 09:06:45] Fetching org.apache.commons.logging_1.2.0.v20180409-1502.jar from http://download.eclipse.org/oomph/drops/milestone/S20221116-103457-1.27.0-M3/plugins/ (71.45kB)
+[2022-11-21 09:06:46] Fetching bcprov_1.72.0.jar from http://download.eclipse.org/oomph/drops/milestone/S20221116-103457-1.27.0-M3/plugins/
+[2022-11-21 09:06:46] Fetching org.apache.commons.codec_1.14.0.v20200818-1422.jar from http://download.eclipse.org/oomph/drops/milestone/S20221116-103457-1.27.0-M3/plugins/
+[2022-11-21 09:06:46] Mirrored 5 artifacts from http://download.eclipse.org/oomph/drops/milestone/S20221116-103457-1.27.0-M3/ at 41kb/s with 2 failures
+[2022-11-21 09:06:46] Collected 5 artifacts for http://download.eclipse.org/oomph/updates/milestone/latest in 4.613s
+[2022-11-21 09:06:46] The engine operation was cancelled and the changes are being rolled back.
+[2022-11-21 09:06:46] 

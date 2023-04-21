@@ -1,0 +1,41 @@
+package sec02.exam02;
+
+public class Anonymous {
+	RemoteControl field =new RemoteControl() {
+		
+		@Override
+		public void turnOn() {
+			System.out.println("TV¸¦ ÄÕ´Ï´Ù.");
+					
+		}
+		
+		@Override
+		public void turnOff() {
+			System.out.println("TV¸¦ ²ü´Ï´Ù.");
+			
+		}
+	};
+	
+	void method1() {
+		RemoteControl localVal = new RemoteControl() {
+			
+			@Override
+			public void turnOn() {
+				System.out.println("Audio¸¦ ÄÕ´Ï´Ù.");
+				
+			}
+			
+			@Override
+			public void turnOff() {
+				System.out.println("Audio¸¦ ²ü´Ï´Ù.");
+				
+			}
+		};
+		
+		localVal.turnOn();
+	}
+	
+	void method2(RemoteControl rc) {
+		rc.turnOn();
+	}
+}
